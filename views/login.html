@@ -1,0 +1,115 @@
+<!DOCTYPE html>  <!-- Se comienza con !! y te sale mucho predeterminado -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- para que acepte diferentes caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- para que se adapte al tamaño del dispositivo -->
+    
+    <title>Login ML</title> <!-- es lo que aparece en la pestaña -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- para agregar la fuente -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> <!-- para enviar la fuente a la hora de estilos -->
+    <script src="https://kit.fontawesome.com/6af0c695f5.js" crossorigin="anonymous"></script> <!-- para los iconos -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    
+
+</head>
+<body>
+    <!-- <h1></h1> para poner El titulo de nuestro documento -->
+    <header>
+        <div class="logo-busqueda-subtituloHeader">
+            <img class="logo" src="./images/logo-mercado-liebre.svg" alt="Logo Mercado Liebre">
+            <div class="barra-busqueda">
+                <input type="text" placeholder="Busqueda" required>
+                <div class="btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>      
+            </div>
+            <h2 class="subtituloHeader"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</h2>
+        </div>
+        
+        <!-- <p></p> para poner un parrafo -->
+        <!-- <p></p> para poner una lista ordenada 
+        <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol> -->
+
+        <!-- Barra de navegación que posea las siguientes opciones: 
+        <div class="siteYlogin">
+            <div class="site"> -->
+               <!--  <ul> para poner una lista sin orden 
+                    <li><a href="http://www.OEFRTA.com">Ofertas</a></li>
+                    <li><a href="http://www.TIENDA.com">Tiendas Oficiales</a></li>
+                    <li><a href="http://www.VENDER.com">Vender</a></li>
+                    <li><a href="http://www.AYUDA.com">Ayuda</a></li>
+                </ul>
+            </div>
+            <div class="login-navbar">
+                <ul>
+                    <li><a href="/views/register.html">Creá tu cuenta</a><i class="fa-regular fa-id-card"></i></li>
+                    <li><a href="/views/login.html">Ingresá</a><i class="fa-solid fa-arrow-right-to-bracket"></i></li>
+                    <li><a href="http://www.OEFRTA.com">Mis compras</a><i class="fa-solid fa-basket-shopping"></i></li>
+                </ul>
+            </div>
+        </div>
+        
+        
+        <div class="burger-menu">
+            <center><i class="fas fa-bars", style="background-color:#1259c3; color:#ebebeb; font-size: 2em; padding: 8px; border-radius: 20%; margin-bottom: 10px;"></i></center>
+        </div>
+        -->
+    </header>
+    <!-- <p></p> para poner un parrafo 
+    <img class="banner" src="./images/img-home-banner.jpg" alt="Imagen Banner Mercado Liebre">
+    -->
+
+    <main class="mainLogin">
+       <h2></h2>
+        <form action="" method="post" class="formularioRegister">
+            <div class="controlFormulario">
+                <label>Nombre de Usuario</label>
+                <input class="control al50" type="text" name="nombreUsuario" placeholder="Ari_Sil" minlength="5" maxlength="40" required>
+            </div>
+            <div class="controlFormulario">
+                <label>Contraseña</label>
+                <input class="control al50" type="password" name="password" required>
+            </div>
+            <div>
+                <button class="botonFormulario" type="submit"><a href="/">Enviar</a></button>
+            </div>
+
+        </form> 
+
+    </main>
+    <footer  class="pieDePagina">
+        <div class="informacionFooter">
+            <section>
+                <i class="icono fa-solid fa-credit-card"></i>
+                <h2>Pagá con tarjeta o en efectivo</h2>
+                <h3>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</h3>
+            </section>
+            <section>
+                <i class="icono fa-solid fa-gift"></i>
+                <h2>Envío gratis desde $ 2.500</h2>
+                <h3>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</h3>
+            </section>
+            <section>
+                <i class="icono fa-solid fa-user-shield"></i>
+                <h2>Seguridad, de principio a fin</h2>
+                <h3>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</h3>
+            </section>
+        </div>
+        <section>
+            <h3>Copyright © 1999-2020 MercadoLiebre S.R.L.</h3>
+        </section>
+    </footer>
+
+
+
+
+</body>
+</html>

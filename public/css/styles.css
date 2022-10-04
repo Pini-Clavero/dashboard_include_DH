@@ -1,0 +1,503 @@
+/* PALETA DE COLORES
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a; 
+
+Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px
+
+*/
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #ebebeb;
+    padding-top: 138px;
+    z-index: 5;
+}
+
+header {
+    background-color: #EAC926;
+    border-top: 0px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+}
+.logo-busqueda-subtituloHeader{
+    padding: 1%;
+}
+
+.logo{
+    width: 50%;
+    display: inline;
+    
+}
+
+.barra-busqueda{
+    position: relative;
+    padding: 5px;
+    width: 120px; 
+    display: inline-block;
+    bottom: 10px;  
+}
+.barra-busqueda input{
+    width: 100%;
+    height: 20px;
+    padding-left: 15px;
+    font-size: 15px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    
+}
+.btn{
+    position: absolute;
+    top: 2px;
+    right: 0;
+    background: #1259c3;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/*.barra-busqueda:hover input{
+    width: 240px;
+}
+.buscar input:focus{
+    width: 240px;
+}*/
+.lupita{
+    height: 113%;
+    color: black; 
+    border: solid black 1px;
+    background-color: #ebebeb; 
+    padding: 2px; 
+    padding-top: 2.5px;
+    /*margin-top: 33%;*/
+    position: absolute;
+    right: -1px;
+    bottom: -1.3px;
+}
+.subtituloHeader{
+    text-align: center;
+    font-size: 100%;
+    margin: 10px;
+}
+
+li{
+    display: inline;
+}
+.siteYlogin{
+    padding: 10px;
+}
+.siteYlogin a{
+    text-decoration: none;
+    color:#000;
+    font-size: 13px;
+}
+.siteYlogin a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.site{
+    display: none; 
+}
+.login-navbar{
+    display: none;
+}
+
+.banner{
+    width: 100%;
+}
+
+main{
+    text-align: center;
+    margin: auto;
+    width: 90%;
+}
+
+.caja-padre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tarjeta{
+    border: solid 1px #ebebeb;
+    text-align: left;
+    width: 280px;
+    margin: 10px;
+}
+
+.descripcion{
+    display: none;
+}
+
+main .icono{/*el camion*/
+    color: #39b54a;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    left: 210px;
+    top: -30px;
+}
+
+.imagenes{
+    width: 100%;
+}
+ul {
+    list-style: none;
+}
+
+.titulares {
+    font-size: 24px;
+    margin: 10px 0px 10px 0px ;
+}
+
+.precios {
+    font-size: 18px;
+    width: 30%;
+    display: inline;
+}
+
+.descuentos{
+    font-size: 16px;
+    width: 70%;
+    display: inline;
+    color: #39b54a;
+}
+
+
+.pieDePagina{
+    text-align: center;
+    margin: 0px;
+}
+
+.icono{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/*--------------------------------------
+ FORMULARIO LOGIN ESTILOS 
+ --------------------------------------*/
+.mainRegister, .mainLogin{
+    text-align: left;
+    padding: 5px;
+    
+}
+
+.formularioRegister{
+    padding-top: 20px;
+    padding-left: 15px;
+    
+}
+.formularioRegister input:hover{
+    border-color: #0022AA;
+}
+.controlFormulario{
+    margin-bottom: 15px;
+    justify-content: left;
+}
+.controlFormulario label{
+    margin-bottom: 5px;
+    font-weight: 900;
+    font-size: 15px;
+    display: block;
+}
+.control{
+    width: 100%;
+    padding: 8px 8px;
+}
+.controlFormulario .control{
+    border-radius: 10px;
+    border: white 2px solid;
+    min-width: 250px;
+}
+.controlAddImage{
+    width: 100%;
+    padding: 8px 8px;
+    padding-left: 50px;
+}
+
+
+.controlFormulario ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.controlFormulario ul li{
+    margin: 5px 0px 5px 50px;
+    display: block;
+    justify-content: left;
+}
+.botonFormulario{
+    background-color: #1259c3;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #ebebeb;
+    
+}
+
+.botonFormulario a{
+    text-decoration: none;
+    color : #ebebeb;
+}
+
+
+/*--------------------------------------
+ MEDIAS QUERIS
+ --------------------------------------*/
+
+@media (min-width: 361px) and (max-width: 769px){
+    
+    .subtituloHeader{
+        display: block;
+    }
+    .logo-busqueda-subtituloHeader{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap; 
+        align-items: center;   
+    }
+
+    .barra-busqueda{
+        position: relative;
+        padding: 5px;
+        width: 120px; 
+        display: inline-block;
+        bottom: 0px;  
+    }
+    .logo{
+        width: 35%;
+    }   
+    /*.barra-busqueda{
+        margin-left: 10%;
+        width: 50%;
+        display: inline;
+        margin-bottom: 10px;
+    } */   
+    .burger-menu{
+        display: none;
+    }
+    .siteYlogin{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .site{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        justify-content: space-around;
+        flex-wrap: wrap; 
+        align-items: center;
+    }
+    .login-navbar{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        justify-content: space-around;
+        flex-wrap: wrap; 
+        align-items: center;
+    }
+    .site li{
+        margin: 10px;
+        
+    }
+    .login-navbar li{
+        margin: 10px;  
+    }
+    .descripcion{
+        /*border: solid 1px #ebebeb;*/
+        box-sizing: border-box;
+        padding: 15px;
+        font-size: 16px;
+        background-color:white; 
+    
+    }
+
+    /*-- Para REGISTRAR Y LOGIN --*/
+    .al50{
+        width: 50%;
+    }
+    .formularioRegister, .formularioLogin{
+        margin-left: 30%;
+    }    
+    /* ---------------------------------
+    -------FOOTER ----------------------
+    */
+    .informacionFooter{
+        display: flex;
+        justify-content: space-around;
+        margin: 10px;
+    }
+    footer i:hover{
+        color: #39b54a;
+    }
+
+    h3 section footer{
+        text-align: left;
+        padding: 10px
+    }
+
+}
+
+@media (min-width: 769px){
+    .tarjeta:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100); 
+    }
+    .logo{
+        display: inline;
+    }
+    .barra-busqueda{
+        display: inline;
+        width: 30%;
+        margin-left: 10%;
+        margin-bottom: 10px;
+        bottom: -5px;
+        right: 70px;
+    }
+    /*.barra-busqueda{
+        position: relative;
+        padding: 5px;
+        width: 120px; 
+        display: inline-block;
+        bottom: 10px;  
+    }*/
+    .subtituloHeader{
+        display: inline;
+        width: 33%;
+    }
+    .burger-menu{
+        display: none;
+    }
+
+    .logo{
+        width: 33.33%;
+    }
+    
+    .logo-busqueda-subtituloHeader{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: nowrap; 
+        align-items: center;   
+    }   
+    .siteYlogin{
+        display: flex;
+        justify-content: space-around;
+    }
+    .site{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        justify-content: space-around;
+        flex-wrap: wrap; 
+        align-items: center; 
+    }
+    .login-navbar{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        justify-content: space-around;
+        flex-wrap: wrap; 
+        align-items: center;
+    }
+    .site li{
+        margin: 10px;
+    }
+    .login-navbar li{
+        margin: 10px;
+    }
+    /*--------------------
+    ------TARJETAS MINE----
+    */
+    .descripcion{
+        display:block;
+        visibility: hidden;
+    }
+    .descripcion{
+        /*border: solid 1px #ebebeb;*/
+        box-sizing: border-box;
+        padding: 15px;
+        font-size: 16px;
+        background-color:white; 
+    }
+
+    .tarjeta:hover .descripcion{
+        visibility: visible;
+    }
+    main article i{
+        transition: 0.5s;
+    }
+
+    main .tarjeta:hover i{
+        transform: rotate(-90deg);
+    }
+
+
+    /* ---------------------------------
+    -------FOOTER ----------------------
+    */
+    .informacionFooter{
+        display: flex;
+        justify-content: space-around;
+        margin: 10px;
+    }
+    footer i:hover{
+        color: #39b54a;
+    }
+
+    h3 section footer{
+        text-align: left;
+        padding: 10px
+    }
+
+    /*-- Para REGISTRAR Y LOGIN --*/
+    .al50{
+        width: 50%;
+    }
+
+    .formularioRegister, .formularioLogin{
+        margin-left: 30%;
+    }  
+    /*.pieDePaginaForm{
+        margin-top: 30px;
+        margin-left: 30%;
+        text-align: center;
+        width: 50%;
+        
+    }  */
+
+
+}
